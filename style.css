@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+body div
+{
+    border: 2px solid black;
+}
+nav
+{
+    border: 2px solid black;
+    width: 100vw;
+    max-width: 100%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1
+{
+    font-size: 28px;
+}
+nav ul
+{
+    display: none;
+}
+#bar-button
+{
+    width: 30px;
+    height: 30px;
+}
+#bar-button:checked + #bar
+{
+    display: flex;
+}
+#bar
+{
+    z-index: 11;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    background-color: rgb(235, 235, 235);
+}
+#bar a div {
+    height: 5vh;
+    background-color: aliceblue;
+}
+
+#page1
+{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(108, 155, 255);
+}
+#page1 div
+{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    left: 2%;
+    top: 1%;
+    padding: 10px;
+    width: 96%;
+    height: 98%;
+}
+
+
+
+
+
+
+
+
+
+
+
+#page2
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 103, 103);
+    position: relative;
+    box-sizing: border-box;
+}
+.p2-divs
+{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    left: 2%;
+    margin-top: 8px;
+    width: 96%;
+    height: 32%;
+    
+}
+#p2-div1
+{
+    top: 0;
+}
+#p2-div2
+{
+    top: 33vh;
+}
+#p2-div3
+{
+    top: 66vh;
+}
+
+
+
+
+
+
+#page3
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(137, 255, 113);
+    position: relative;
+}
+
+
+
+
+
+
+@media (width < 480px) {
+    
+}
